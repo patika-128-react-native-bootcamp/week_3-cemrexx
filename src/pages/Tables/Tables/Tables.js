@@ -21,6 +21,7 @@ export default function Table() {
 
   useEffect(() => {
     if (!route.params) {
+      console.log('test')
       return;
     }
 
